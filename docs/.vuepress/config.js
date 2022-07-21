@@ -15,8 +15,8 @@ module.exports = {
   plugins,
   themeConfig,
 
-  // vssue 评论插件
   plugins: [
+    // vssue 评论插件
     [
       "vuepress-plugin-vssue-global",
       {
@@ -31,10 +31,7 @@ module.exports = {
         repo: "lql-notes",
       },
     ],
-  ],
-
-  // 增强 markdown
-  plugins: [
+    // Markdown 增强
     [
       "md-enhance",
       {
