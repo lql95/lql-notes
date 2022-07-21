@@ -17,7 +17,7 @@ cd docs/.vuepress/dist
   Date=`date '+%Y%m%d%H%M%S'`
   echo $Date
   msg='GitHub Actions Deploy'
-  githubUrl=https://eryajf:${GITHUB_TOKEN}@github.com/eryajf/vdoing-template.git
+  githubUrl=https://eryajf:${GITHUB_TOKEN}@github.com/eryajf/lql-notes.git
   git config --global user.name "eryajf"
   git config --global user.email "eryajf@163.com"
 
